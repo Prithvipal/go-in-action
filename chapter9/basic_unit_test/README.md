@@ -36,14 +36,15 @@ FAIL	github.com/Prithvipal/go-in-action/chapter9/basic_unit_test	3.998s
 
 `go test v`
 
-It will generate below error:
+It will generate below output:
 ```
 === RUN   TestDownload
---- PASS: TestDownload (3.80s)
+--- PASS: TestDownload (3.99s)
     first_test.go:15: Given the need to test downloading content.
     first_test.go:17: 	 When checking "http://www.goinggo.net/feeds/posts/default?alt=rss" for status code "200"
-    first_test.go:25: 		Should receive a "200" status. 10003
+    first_test.go:25: 		Should receive a "200" status. ✓
 PASS
-ok  	github.com/Prithvipal/go-in-action/chapter9/basic_unit_test	3.810s
+ok  	github.com/Prithvipal/go-in-action/chapter9/basic_unit_test	3.992s
+
 ```
 5. You don't need to write code to asserts. If you testcase executes `t.Error()` or `t.Fatal()`, the test case will fail else it will success. 

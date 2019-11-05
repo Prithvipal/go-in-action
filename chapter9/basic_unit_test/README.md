@@ -21,13 +21,13 @@ ok  	github.com/Prithvipal/go-in-action/chapter9/basic_unit_test	9.963s
 Output of fail:
 
 ```
---- FAIL: TestDownload (3.99s)
+--- FAIL: TestDownload (3.84s)
     first_test.go:15: Given the need to test downloading content.
     first_test.go:17: 	 When checking "http://www.goinggo.net/feedsx/posts/default?alt=rss" for status code "200"
-    first_test.go:27: 		Should receive a "200" status. 10007 404
+    first_test.go:27: 		Should receive a "200" status. ✗ 404
 FAIL
 exit status 1
-FAIL	github.com/Prithvipal/go-in-action/chapter9/basic_unit_test	3.998s
+FAIL	github.com/Prithvipal/go-in-action/chapter9/basic_unit_test	3.846s
 
 ```
 

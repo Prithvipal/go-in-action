@@ -9,5 +9,38 @@
      Test_Donwload()
     ``` 
 
-3. Below Command to run 
+3. Below Command to run test case. If test case is successful, it will not print logs writen in test case. if testcase is failed the this command print detailed logs.
+
+`go test`
     
+Output on success:
+```
+ok  	github.com/Prithvipal/go-in-action/chapter9/basic_unit_test	9.963s
+```
+
+Output of fail:
+
+```
+--- FAIL: TestDownload (3.99s)
+    first_test.go:15: Given the need to test downloading content.
+    first_test.go:17: 	 When checking "http://www.goinggo.net/feedsx/posts/default?alt=rss" for status code "200"
+    first_test.go:27: 		Should receive a "200" status. 10007 404
+FAIL
+exit status 1
+FAIL	github.com/Prithvipal/go-in-action/chapter9/basic_unit_test	3.998s
+
+```
+
+4. If you want to print test case log even if there is no error then you run below command
+`go test v`
+
+It will generate below error:
+```
+=== RUN   TestDownload
+--- PASS: TestDownload (3.80s)
+    first_test.go:15: Given the need to test downloading content.
+    first_test.go:17: 	 When checking "http://www.goinggo.net/feeds/posts/default?alt=rss" for status code "200"
+    first_test.go:25: 		Should receive a "200" status. 10003
+PASS
+ok  	github.com/Prithvipal/go-in-action/chapter9/basic_unit_test	3.810s
+```

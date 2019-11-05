@@ -5,8 +5,8 @@ import (
 	"testing"
 )
 
-const checkMark = '\u2713'
-const ballotX = '\u2717'
+const checkMark = "\u2713"
+const ballotX = "\u2717"
 
 func TestDownload(t *testing.T) {
 	url := "http://www.goinggo.net/feeds/posts/default?alt=rss"

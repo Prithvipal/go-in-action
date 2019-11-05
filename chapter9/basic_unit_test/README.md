@@ -4,7 +4,10 @@
 `?   	github.com/Prithvipal/go-in-action/chapter9/basic_unit_test	[no test files]`
 
 2. The test function must start with Test and then capitalized Name or _ with name. Both will work. Ex:
-    `TestDownload()`
-    `Test_Donwload()`
-3. 
+    ```
+     TestDownload()
+     Test_Donwload()
+    ``` 
+
+3. Below Command to run 
     

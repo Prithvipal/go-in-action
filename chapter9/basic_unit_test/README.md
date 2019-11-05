@@ -32,6 +32,8 @@ FAIL	github.com/Prithvipal/go-in-action/chapter9/basic_unit_test	3.998s
 ```
 
 4. If you want to print test case log even if there is no error then you run below command
+
+
 `go test v`
 
 It will generate below error:

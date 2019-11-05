@@ -5,5 +5,6 @@
 
 2. The test function must start with Test and then capitalized Name or _ with name. Both will work. Ex:
     ```TestDownload()
-    Test_Donwload()```
+    Test_Donwload()
+3. 
     

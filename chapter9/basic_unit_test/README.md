@@ -46,3 +46,4 @@ It will generate below error:
 PASS
 ok  	github.com/Prithvipal/go-in-action/chapter9/basic_unit_test	3.810s
 ```
+5. You don't need to write code to asserts. If you testcase executes `t.Error()` or `t.Fatal()`, the test case will fail else it will success. 
